@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.greeens{
+  text-align: center;
+  color:whitesmoke;
+}
+
+  body{
+  
+    background: linear-gradient(to right, hsla(12, 4%, 75%, 0.877),hsla(0, 6%, 16%, 0.904));
+}
+.niggs{
+  position: absolute;
+  left: 20%;
+  margin-top: 5%;
+}
+.toast-error{
+  background-color: red;
+}
+.toast-info{
+  background-color: rgb(95, 192, 244);
+}
+.toast-success{
+  background-color: green;
+}

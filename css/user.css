@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  
+  font-family: 'Poppins',sans-serif;
+}
+.profileInfo{
+  position: absolute; top: 15.15%; right: 7%;
+  width:250px;
+  margin: 0 auto;
+  padding: 0.5em;
+  border: 2px solid #888;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px #0008;
+}
+.profileInfo img{
+  width: 250px;
+}
+
+.profileInfo .name{
+  font-size:1em;
+  margin:0;
+  text-align:center;
+}
+.yell{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: absolute;
+   top: 11.15%; right: 26%;
+
+}
+
+.yell:hover {
+  color: #003366;
+  text-decoration: underline;
+}
